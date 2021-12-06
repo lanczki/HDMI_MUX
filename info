@@ -1,0 +1,100 @@
+{
+  "uuid": "e3ea43ac27d1396f47d3063608fdeda1",
+  "path": "Offline/HDMI_switch",
+  "name": "HDMI_switch",
+  "content": "",
+  "created_at": "2021-12-05 17:59:26",
+  "updated_at": "2021-12-05 21:03:53",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "dce6400a3c3597cbb3b894ad2b6c760e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "84bee2ff7ceb4a0c86007fe97b519260": 4,
+        "f213ad3fc4e742e9bcf7d774c83ba90d": 1,
+        "b444bdad5ff149a699e3c732ff5b9020": 1,
+        "af165b8b751c4759ab0054aca48c041e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "KH-HDMI-19P-CU",
+          4,
+          "HDMI-SMD_KH-HDMI-19P-CU",
+          "CN1,CN2,CN3,CN4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C709361",
+            "BOM_Manufacturer": "kinghelm(金航标)",
+            "BOM_Manufacturer Part": "KH-HDMI-19P-Cu",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "07c9e7f3954a474fbc00a54d3d67d331",
+            "uuid": "84bee2ff7ceb4a0c86007fe97b519260"
+          }
+        ],
+        [
+          "TMDS361BPAG",
+          1,
+          "QFP50P1200X1200X120-64N",
+          "IC1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c63c74047a77435994271816eab279f0",
+            "uuid": "af165b8b751c4759ab0054aca48c041e"
+          }
+        ],
+        [
+          "CD4520BM/TR",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C507152",
+            "BOM_Manufacturer": "HGSEMI(华冠)",
+            "BOM_Manufacturer Part": "CD4520BM/TR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "f213ad3fc4e742e9bcf7d774c83ba90d"
+          }
+        ],
+        [
+          "SN74AHC1G08DBVRG4",
+          1,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74AHC1G08DBVRG4",
+            "BOM_Supplier Part": "C7467",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e7f085e4f71344109c090040716070ab",
+            "uuid": "b444bdad5ff149a699e3c732ff5b9020"
+          }
+        ]
+      ],
+      "updateTime": 1638734633,
+      "createTime": 1638734407,
+      "histories": [],
+      "created_at": "2021-12-05 21:00:07",
+      "updated_at": "2021-12-05 21:03:53"
+    }
+  ],
+  "sort": [],
+  "title": "HDMI_switch",
+  "foldername": "HDMI_switch",
+  "schfilename": "HDMI_switch.json",
+  "schfilemtime": 1638734633278
+}
