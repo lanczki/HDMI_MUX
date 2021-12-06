@@ -4,7 +4,7 @@
   "name": "HDMI_switch",
   "content": "",
   "created_at": "2021-12-05 17:59:26",
-  "updated_at": "2021-12-05 21:03:53",
+  "updated_at": "2021-12-06 19:58:40",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "f36cf9d2d859df7466b9fe4af9d17ea8",
       "thumb": "/images/thumb-default.png",
       "components": {
         "84bee2ff7ceb4a0c86007fe97b519260": 4,
@@ -85,16 +85,16 @@
           }
         ]
       ],
-      "updateTime": 1638734633,
+      "updateTime": 1638817120,
       "createTime": 1638734407,
       "histories": [],
       "created_at": "2021-12-05 21:00:07",
-      "updated_at": "2021-12-05 21:03:53"
+      "updated_at": "2021-12-06 19:58:40"
     }
   ],
   "sort": [],
   "title": "HDMI_switch",
   "foldername": "HDMI_switch",
   "schfilename": "HDMI_switch.json",
-  "schfilemtime": 1638734633278
+  "schfilemtime": 1638817120645
 }
