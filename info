@@ -4,21 +4,22 @@
   "name": "HDMI_switch",
   "content": "",
   "created_at": "2021-12-05 17:59:26",
-  "updated_at": "2021-12-06 19:58:40",
+  "updated_at": "2021-12-07 20:06:31",
   "stick": "",
   "documents": [
     {
       "uuid": "dce6400a3c3597cbb3b894ad2b6c760e",
-      "title": "Sheet_1",
+      "title": "HDMI_switch_Schematic",
       "description": "",
       "docType": "1",
-      "master": "f36cf9d2d859df7466b9fe4af9d17ea8",
+      "master": "9bcba8c2ab9e40883b85d96092a3a483",
       "thumb": "/images/thumb-default.png",
       "components": {
         "84bee2ff7ceb4a0c86007fe97b519260": 4,
         "f213ad3fc4e742e9bcf7d774c83ba90d": 1,
         "b444bdad5ff149a699e3c732ff5b9020": 1,
-        "af165b8b751c4759ab0054aca48c041e": 1
+        "af165b8b751c4759ab0054aca48c041e": 1,
+        "eafa7a6b69cd4f18acf3e60992b6b582": 1
       },
       "BOM": [
         [
@@ -83,18 +84,33 @@
             "puuid": "e7f085e4f71344109c090040716070ab",
             "uuid": "b444bdad5ff149a699e3c732ff5b9020"
           }
+        ],
+        [
+          "LD1117AG-33-AA3-A-R",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UTC",
+            "BOM_Manufacturer Part": "LD1117AG-33-AA3-A-R",
+            "BOM_Supplier Part": "C71121",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "09952c2799c54b76904e264324ada8f3",
+            "uuid": "eafa7a6b69cd4f18acf3e60992b6b582"
+          }
         ]
       ],
-      "updateTime": 1638817120,
+      "updateTime": 1638903991,
       "createTime": 1638734407,
       "histories": [],
       "created_at": "2021-12-05 21:00:07",
-      "updated_at": "2021-12-06 19:58:40"
+      "updated_at": "2021-12-07 20:06:31"
     }
   ],
   "sort": [],
   "title": "HDMI_switch",
   "foldername": "HDMI_switch",
   "schfilename": "HDMI_switch.json",
-  "schfilemtime": 1638817120645
+  "schfilemtime": 1638903991912
 }
