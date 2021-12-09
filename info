@@ -4,7 +4,7 @@
   "name": "HDMI_switch",
   "content": "",
   "created_at": "2021-12-05 17:59:26",
-  "updated_at": "2021-12-07 20:06:31",
+  "updated_at": "2021-12-09 20:06:04",
   "stick": "",
   "documents": [
     {
@@ -12,14 +12,21 @@
       "title": "HDMI_switch_Schematic",
       "description": "",
       "docType": "1",
-      "master": "9bcba8c2ab9e40883b85d96092a3a483",
+      "master": "40bb181ac0aeb3bee3feae66c3448580",
       "thumb": "/images/thumb-default.png",
       "components": {
         "84bee2ff7ceb4a0c86007fe97b519260": 4,
         "f213ad3fc4e742e9bcf7d774c83ba90d": 1,
         "b444bdad5ff149a699e3c732ff5b9020": 1,
         "af165b8b751c4759ab0054aca48c041e": 1,
-        "eafa7a6b69cd4f18acf3e60992b6b582": 1
+        "eafa7a6b69cd4f18acf3e60992b6b582": 1,
+        "2e4506b2793b4c5eaea6778d8bf9bc61": 1,
+        "c33d9cb6e7bf4c51a4e2fab4cfbf2502": 1,
+        "bb9101ac93202d9b46a51b58d9333353": 2,
+        "be10b59471a54dfea288829676d4fc31": 6,
+        "d2f24c3a2f0f4f579b1db0a960f32c5b": 6,
+        "5cdde010ac714937b2a6e7f0596021f3": 1,
+        "49775ca2142f4315bad6cf1e5cfc7946": 1
       },
       "BOM": [
         [
@@ -28,6 +35,36 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "100nF",
+          6,
+          "C0402",
+          "C1,C4,C5,C6,C7,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0402KRX7R7BB104",
+            "BOM_Supplier Part": "C60474",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "be10b59471a54dfea288829676d4fc31"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C1206",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL31A106KAHNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C9807",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "bb9101ac93202d9b46a51b58d9333353"
+          }
         ],
         [
           "KH-HDMI-19P-CU",
@@ -53,6 +90,81 @@
             "BOM_Manufacturer Part": "",
             "puuid": "c63c74047a77435994271816eab279f0",
             "uuid": "af165b8b751c4759ab0054aca48c041e"
+          }
+        ],
+        [
+          "XL-2012UGC",
+          1,
+          "LED0805-RD_GREEN",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C965815",
+            "BOM_Manufacturer": "XINGLIGHT(成兴光)",
+            "BOM_Manufacturer Part": "XL-2012UGC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "71dd75dc144a4200b693db79d025b07d",
+            "uuid": "5cdde010ac714937b2a6e7f0596021f3"
+          }
+        ],
+        [
+          "2N7002_C916396",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C916396",
+            "BOM_Manufacturer": "JSMSEMI(杰盛微)",
+            "BOM_Manufacturer Part": "2N7002",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "49775ca2142f4315bad6cf1e5cfc7946"
+          }
+        ],
+        [
+          "4.02K",
+          1,
+          "R0805",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "TC0525B4021T5E",
+            "BOM_Supplier Part": "C88431",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "2e4506b2793b4c5eaea6778d8bf9bc61"
+          }
+        ],
+        [
+          "10K",
+          6,
+          "R0603",
+          "R2,R3,R4,R5,R6,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "RS-03K103JT",
+            "BOM_Supplier Part": "C73809",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "d2f24c3a2f0f4f579b1db0a960f32c5b"
+          }
+        ],
+        [
+          "TS-1095S-A2B2-C2D1",
+          1,
+          "KEY-SMD_4P-L6.0-W6.0-P4.50-LS8.6",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C782826",
+            "BOM_Manufacturer": "Yuandi",
+            "BOM_Manufacturer Part": "TS-1095S-A2B2-C2D1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9998ef011d0146c3b40d14b352d2c2fc",
+            "uuid": "c33d9cb6e7bf4c51a4e2fab4cfbf2502"
           }
         ],
         [
@@ -101,16 +213,16 @@
           }
         ]
       ],
-      "updateTime": 1638903991,
+      "updateTime": 1639076764,
       "createTime": 1638734407,
       "histories": [],
       "created_at": "2021-12-05 21:00:07",
-      "updated_at": "2021-12-07 20:06:31"
+      "updated_at": "2021-12-09 20:06:04"
     }
   ],
   "sort": [],
   "title": "HDMI_switch",
   "foldername": "HDMI_switch",
   "schfilename": "HDMI_switch.json",
-  "schfilemtime": 1638903991912
+  "schfilemtime": 1639076766781
 }
