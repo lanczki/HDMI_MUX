@@ -4,7 +4,7 @@
   "name": "HDMI_switch",
   "content": "",
   "created_at": "2021-12-05 17:59:26",
-  "updated_at": "2021-12-09 20:06:04",
+  "updated_at": "2021-12-11 18:16:49",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "HDMI_switch_Schematic",
       "description": "",
       "docType": "1",
-      "master": "40bb181ac0aeb3bee3feae66c3448580",
+      "master": "090b7c4bff81e842de765c7e58676c7c",
       "thumb": "/images/thumb-default.png",
       "components": {
         "84bee2ff7ceb4a0c86007fe97b519260": 4,
@@ -23,10 +23,14 @@
         "2e4506b2793b4c5eaea6778d8bf9bc61": 1,
         "c33d9cb6e7bf4c51a4e2fab4cfbf2502": 1,
         "bb9101ac93202d9b46a51b58d9333353": 2,
-        "be10b59471a54dfea288829676d4fc31": 6,
-        "d2f24c3a2f0f4f579b1db0a960f32c5b": 6,
-        "5cdde010ac714937b2a6e7f0596021f3": 1,
-        "49775ca2142f4315bad6cf1e5cfc7946": 1
+        "be10b59471a54dfea288829676d4fc31": 7,
+        "d2f24c3a2f0f4f579b1db0a960f32c5b": 7,
+        "5cdde010ac714937b2a6e7f0596021f3": 4,
+        "49775ca2142f4315bad6cf1e5cfc7946": 3,
+        "b863c189b65d27c2430a0274caceb4fa": 4,
+        "7e604c11ed3e437599a19af4db9d388a": 1,
+        "beb7660708a0499fac6a060cc3851aa2": 1,
+        "1189518df8374f36b175a08306a5b0b7": 1
       },
       "BOM": [
         [
@@ -38,9 +42,9 @@
         ],
         [
           "100nF",
-          6,
+          7,
           "C0402",
-          "C1,C4,C5,C6,C7,C9",
+          "C1,C4,C5,C6,C7,C8,C9",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "YAGEO",
@@ -82,6 +86,21 @@
           }
         ],
         [
+          "DS1023-2*4SF11",
+          1,
+          "HDR-TH_8P-P2.54-V-F-R2-C4-S2.54-1",
+          "H1-ESP8266",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CONNFLY",
+            "BOM_Manufacturer Part": "DS1023-2*4SF11",
+            "BOM_Supplier Part": "C92271",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bec7af274b3a42d3b5c6d23707d6dc2b",
+            "uuid": "7e604c11ed3e437599a19af4db9d388a"
+          }
+        ],
+        [
           "TMDS361BPAG",
           1,
           "QFP50P1200X1200X120-64N",
@@ -94,9 +113,9 @@
         ],
         [
           "XL-2012UGC",
-          1,
+          4,
           "LED0805-RD_GREEN",
-          "LED1",
+          "LED1,LED2,LED3,LED4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C965815",
@@ -108,10 +127,25 @@
           }
         ],
         [
-          "2N7002_C916396",
+          "Header-Female-2.54_1x3",
           1,
+          "HDR-TH_3P-P2.54-V-F",
+          "P1",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "2N7002_C916396",
+          3,
           "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
-          "Q1",
+          "Q1,Q2,Q3",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C916396",
@@ -139,9 +173,9 @@
         ],
         [
           "10K",
-          6,
+          7,
           "R0603",
-          "R2,R3,R4,R5,R6,R8",
+          "R2,R3,R4,R5,R6,R8,R12",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "FH",
@@ -150,6 +184,21 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "d2f24c3a2f0f4f579b1db0a960f32c5b"
+          }
+        ],
+        [
+          "100",
+          4,
+          "R0603",
+          "R7,R9,R10,R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAJ0101T5E",
+            "BOM_Supplier Part": "C25201",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b863c189b65d27c2430a0274caceb4fa"
           }
         ],
         [
@@ -211,18 +260,32 @@
             "puuid": "09952c2799c54b76904e264324ada8f3",
             "uuid": "eafa7a6b69cd4f18acf3e60992b6b582"
           }
+        ],
+        [
+          "FSUSB73UMX",
+          1,
+          "UMLP-16_L2.6-W1.8-P0.40-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C895431",
+            "BOM_Manufacturer": "onsemi(安森美)",
+            "BOM_Manufacturer Part": "FSUSB73UMX",
+            "puuid": "b63582a3069f4ae1bc14264eb1c7e185",
+            "uuid": "1189518df8374f36b175a08306a5b0b7"
+          }
         ]
       ],
-      "updateTime": 1639076764,
+      "updateTime": 1639243009,
       "createTime": 1638734407,
       "histories": [],
       "created_at": "2021-12-05 21:00:07",
-      "updated_at": "2021-12-09 20:06:04"
+      "updated_at": "2021-12-11 18:16:49"
     }
   ],
   "sort": [],
   "title": "HDMI_switch",
   "foldername": "HDMI_switch",
   "schfilename": "HDMI_switch.json",
-  "schfilemtime": 1639076766781
+  "schfilemtime": 1639243009508
 }
