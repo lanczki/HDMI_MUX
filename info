@@ -4,7 +4,7 @@
   "name": "HDMI_switch",
   "content": "",
   "created_at": "2021-12-05 17:59:26",
-  "updated_at": "2021-12-11 18:16:49",
+  "updated_at": "2021-12-20 21:22:00",
   "stick": "",
   "documents": [
     {
@@ -12,25 +12,30 @@
       "title": "HDMI_switch_Schematic",
       "description": "",
       "docType": "1",
-      "master": "090b7c4bff81e842de765c7e58676c7c",
+      "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
         "84bee2ff7ceb4a0c86007fe97b519260": 4,
-        "f213ad3fc4e742e9bcf7d774c83ba90d": 1,
-        "b444bdad5ff149a699e3c732ff5b9020": 1,
         "af165b8b751c4759ab0054aca48c041e": 1,
         "eafa7a6b69cd4f18acf3e60992b6b582": 1,
         "2e4506b2793b4c5eaea6778d8bf9bc61": 1,
         "c33d9cb6e7bf4c51a4e2fab4cfbf2502": 1,
         "bb9101ac93202d9b46a51b58d9333353": 2,
-        "be10b59471a54dfea288829676d4fc31": 7,
-        "d2f24c3a2f0f4f579b1db0a960f32c5b": 7,
+        "be10b59471a54dfea288829676d4fc31": 8,
+        "d2f24c3a2f0f4f579b1db0a960f32c5b": 10,
         "5cdde010ac714937b2a6e7f0596021f3": 4,
         "49775ca2142f4315bad6cf1e5cfc7946": 3,
         "b863c189b65d27c2430a0274caceb4fa": 4,
         "7e604c11ed3e437599a19af4db9d388a": 1,
         "beb7660708a0499fac6a060cc3851aa2": 1,
-        "1189518df8374f36b175a08306a5b0b7": 1
+        "1189518df8374f36b175a08306a5b0b7": 1,
+        "800eda5ed5d34b7ba443a248feeebc0f": 3,
+        "7964b808212e45f9bf60e0d723a189da": 1,
+        "3b1705be1c4b4258bff2165108bdd3ab": 1,
+        "2ad02cfed59f437db90d0674872ee981": 1,
+        "af7b5c23396d455aa8d3490ce35a3b90": 2,
+        "da73f1a4866445deb13832c8b4c3b2ad": 1,
+        "bbe13026e40d4272a6f6c4868137a5ee": 2
       },
       "BOM": [
         [
@@ -42,9 +47,9 @@
         ],
         [
           "100nF",
-          7,
+          8,
           "C0402",
-          "C1,C4,C5,C6,C7,C8,C9",
+          "C1,C4,C5,C6,C7,C8,C9,C10",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "YAGEO",
@@ -173,9 +178,9 @@
         ],
         [
           "10K",
-          7,
+          10,
           "R0603",
-          "R2,R3,R4,R5,R6,R8,R12",
+          "R2,R3,R4,R5,R8,R12,R15,R16,R17,R18",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "FH",
@@ -202,6 +207,21 @@
           }
         ],
         [
+          "5.1K",
+          2,
+          "R0402",
+          "R13,R14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0402FR-075K1L",
+            "BOM_Supplier Part": "C105872",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "af7b5c23396d455aa8d3490ce35a3b90"
+          }
+        ],
+        [
           "TS-1095S-A2B2-C2D1",
           1,
           "KEY-SMD_4P-L6.0-W6.0-P4.50-LS8.6",
@@ -214,36 +234,6 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "9998ef011d0146c3b40d14b352d2c2fc",
             "uuid": "c33d9cb6e7bf4c51a4e2fab4cfbf2502"
-          }
-        ],
-        [
-          "CD4520BM/TR",
-          1,
-          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C507152",
-            "BOM_Manufacturer": "HGSEMI(华冠)",
-            "BOM_Manufacturer Part": "CD4520BM/TR",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
-            "uuid": "f213ad3fc4e742e9bcf7d774c83ba90d"
-          }
-        ],
-        [
-          "SN74AHC1G08DBVRG4",
-          1,
-          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
-          "U2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "TI",
-            "BOM_Manufacturer Part": "SN74AHC1G08DBVRG4",
-            "BOM_Supplier Part": "C7467",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e7f085e4f71344109c090040716070ab",
-            "uuid": "b444bdad5ff149a699e3c732ff5b9020"
           }
         ],
         [
@@ -274,18 +264,121 @@
             "puuid": "b63582a3069f4ae1bc14264eb1c7e185",
             "uuid": "1189518df8374f36b175a08306a5b0b7"
           }
+        ],
+        [
+          "TUSB2036VFRG4",
+          1,
+          "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2678093",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "TUSB2036VFRG4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "01eff4c61f3b4c87883cc5f1bf56d5aa",
+            "uuid": "7964b808212e45f9bf60e0d723a189da"
+          }
+        ],
+        [
+          "74AHC74D,118",
+          1,
+          "SOP-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282412",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "74AHC74D,118",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e69ddeebe4e34357ab0ade32765aa5fb",
+            "uuid": "da73f1a4866445deb13832c8b4c3b2ad"
+          }
+        ],
+        [
+          "SN74LVC1G58DCKR_AND",
+          1,
+          "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74LVC1G58DCKR",
+            "BOM_Supplier Part": "C7842",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bc5fef70c1364107a455754d0f326527",
+            "uuid": "bbe13026e40d4272a6f6c4868137a5ee"
+          }
+        ],
+        [
+          "SN74LVC1G58DCKR_OR",
+          1,
+          "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR",
+          "U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "SN74LVC1G58DCKR",
+            "BOM_Supplier Part": "C7842",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bc5fef70c1364107a455754d0f326527",
+            "uuid": "bbe13026e40d4272a6f6c4868137a5ee"
+          }
+        ],
+        [
+          "U254-051T-4BH83-F1S",
+          3,
+          "MICRO-USB-SMD_U254-051T-4BH83-F1S",
+          "USB1,USB2,USB3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C397452",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "U254-051T-4BH83-F1S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "96bd5b662faa49d28e9c1c4335ae28c5",
+            "uuid": "800eda5ed5d34b7ba443a248feeebc0f"
+          }
+        ],
+        [
+          "U262-061N-4BVC11",
+          1,
+          "USB-SMD_U262-061N-4BVC11",
+          "USB4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2764612",
+            "BOM_Manufacturer": "XKB Connectivity(中国星坤)",
+            "BOM_Manufacturer Part": "U262-061N-4BVC11",
+            "puuid": "78cb177283474a9bb4c94f797d4f93ef",
+            "uuid": "2ad02cfed59f437db90d0674872ee981"
+          }
+        ],
+        [
+          "U-A-28DD-Y-1",
+          1,
+          "USB-A-TH_U-A-28DD-Y-1",
+          "USB5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C530601",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "U-A-28DD-Y-1",
+            "puuid": "ba0cd791f8aa4d62aa015b7e524bd8f1",
+            "uuid": "3b1705be1c4b4258bff2165108bdd3ab"
+          }
         ]
       ],
-      "updateTime": 1639243009,
+      "updateTime": 1640031720,
       "createTime": 1638734407,
       "histories": [],
       "created_at": "2021-12-05 21:00:07",
-      "updated_at": "2021-12-11 18:16:49"
+      "updated_at": "2021-12-20 21:22:00"
     }
   ],
   "sort": [],
   "title": "HDMI_switch",
   "foldername": "HDMI_switch",
   "schfilename": "HDMI_switch.json",
-  "schfilemtime": 1639243009508
+  "schfilemtime": 1640031721436
 }
